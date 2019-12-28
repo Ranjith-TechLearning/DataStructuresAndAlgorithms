@@ -3,7 +3,7 @@ package mylearning.datastructures.LinkedList;
 public class LinkedList {
     Node head = null;
 
-    public static void main(String arg[]) {
+    public static void main(String arg[]) throws Exception{
 
         LinkedList list = new LinkedList();
         System.out.println(list.head != null ? list.head.data : "Head is Empty on List");
@@ -23,7 +23,6 @@ public class LinkedList {
 
         list1.print();
 
-
         LinkedList listAddAtPosition = new LinkedList();
         listAddAtPosition.addAt(1, 2);
         listAddAtPosition.addAt(2, 3);
@@ -32,6 +31,12 @@ public class LinkedList {
         listAddAtPosition.addAt(2,10);
         listAddAtPosition.print();
 
+        listAddAtPosition.delete(1);
+        listAddAtPosition.print();
+        listAddAtPosition.delete(2);
+        listAddAtPosition.print();
+        listAddAtPosition.delete(1);
+        listAddAtPosition.print();
     }
 
     private void print() {
@@ -108,6 +113,35 @@ public class LinkedList {
 
         }else{
             temp.link = newNode;
+        }
+    }
+
+    public void delete(int position){
+
+        if(head == null){
+            System.out.println(" The Linked list is empty... Nothing to delete");
+            return;
+        }
+        if(position ==1 ){
+            Node temp = head;
+            if(temp.link ==null){
+                head = null;
+            }else{
+                head = temp.link;
+            }
+        }else{
+            //go to n-1 th position..
+            Node temp = head;
+            for(int i=0; i<=position-2; i++){
+                temp = temp.link;
+            }
+            Node temp1 = temp.link;
+            if(temp1 !=null){
+                temp.link = temp1.link;
+            }else{
+                System.out.println("No Element in the Nth position... ");
+            }
+
         }
     }
 
