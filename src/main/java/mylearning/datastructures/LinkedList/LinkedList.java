@@ -20,8 +20,12 @@ public class LinkedList {
             list1.addAtLast(i);
 
         }
-
         list1.print();
+        list1.reverseUsingIterativeApparoch();
+        list1.print();
+        System.out.println(list1.head);
+
+        /*list1.print();
 
         LinkedList listAddAtPosition = new LinkedList();
         listAddAtPosition.addAt(1, 2);
@@ -36,7 +40,7 @@ public class LinkedList {
         listAddAtPosition.delete(2);
         listAddAtPosition.print();
         listAddAtPosition.delete(1);
-        listAddAtPosition.print();
+        listAddAtPosition.print();*/
     }
 
     private void print() {
@@ -143,6 +147,24 @@ public class LinkedList {
             }
 
         }
+    }
+
+    private void reverseUsingIterativeApparoch(){
+
+        Node current= null;
+        Node previous=null;
+        Node next = null;
+
+        current = head;
+
+        while(current !=null){
+           next = current.link;
+           current.link = previous; // break the link or relink
+            previous = current;
+            current = next;
+        }
+        head= previous;
+
     }
 
     static class Node {
