@@ -3,7 +3,7 @@ package mylearning.datastructures.LinkedList;
 public class LinkedList {
     Node head = null;
 
-    public static void main(String arg[]) throws Exception{
+   /* public static void main(String arg[]) throws Exception{
 
         LinkedList list = new LinkedList();
         System.out.println(list.head != null ? list.head.data : "Head is Empty on List");
@@ -25,7 +25,7 @@ public class LinkedList {
         list1.print();
         System.out.println(list1.head);
 
-        /*list1.print();
+        *//*list1.print();
 
         LinkedList listAddAtPosition = new LinkedList();
         listAddAtPosition.addAt(1, 2);
@@ -40,9 +40,9 @@ public class LinkedList {
         listAddAtPosition.delete(2);
         listAddAtPosition.print();
         listAddAtPosition.delete(1);
-        listAddAtPosition.print();*/
+        listAddAtPosition.print();*//*
     }
-
+*/
     private void print() {
         Node temp = head;
         while (temp != null) {
@@ -89,7 +89,7 @@ public class LinkedList {
     }
 
 
-    private void addAt(int position, int data){
+    public void addAt(int position, int data){
         Node newNode = new Node();
         newNode.data=data;
         newNode.link=null;
