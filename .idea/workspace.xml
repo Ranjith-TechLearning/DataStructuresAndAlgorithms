@@ -23,33 +23,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/datastructureandalgorithm_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/datastructureandalgorithm_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedListReversePrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueUsingArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueUsingCircularArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueUsingLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/BalancedParanthesesProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/ReverseLinkedUsingStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/ReverseStringProblemUsingStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/array/TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/problems/LinkedList/AddTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/problems/LinkedList/MergeTwoSortedLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/problems/string/ReverserPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/problems/string/UniqueLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/arrays/RemoveDuplicateFromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedListReversePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingCircularArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/BalancedParanthesesProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/ReverseLinkedUsingStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/ReverseStringProblemUsingStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/array/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/tree/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/tree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/MergeTwoSortedLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/madan/SearchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/string/ReverserPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/string/UniqueLetter.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,15 +120,17 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.problems.LinkedList.AddTwoNumbers" />
-      <module name="datastructureandalgorithm_main" />
+  <component name="RunManager" selected="Application.LinkedList">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.LinkedList.LinkedList" />
+      <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.problems.LinkedList.*" />
+          <option name="PATTERN" value="mylearning.datastructures.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,73 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.RemoveDuplicateFromSortedArray" />
-      <module name="datastructureandalgorithm_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylearning.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverserPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.problems.string.ReverserPrint" />
-      <module name="datastructureandalgorithm_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylearning.problems.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.problems.madan.SearchInRotatedSortedArray" />
-      <module name="datastructureandalgorithm_main" />
-      <option name="PROGRAM_PARAMETERS" value="Hello Ranjith" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylearning.problems.madan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.problems.string.UniqueLetter" />
-      <module name="datastructureandalgorithm_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mylearning.problems.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Tests in 'datastructureandalgorithm'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbers" />
-      <item itemvalue="Application.ReverserPrint" />
-      <item itemvalue="Application.UniqueLetter" />
-      <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
-      <item itemvalue="Application.SearchInRotatedSortedArray" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
-        <item itemvalue="Application.UniqueLetter" />
-        <item itemvalue="Application.ReverserPrint" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
+        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +200,71 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="23" key="#Project_Structure" timestamp="1593666824497">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="128" y="23" key="#Project_Structure/0.23.1280.729@0.23.1280.729" timestamp="1593666824497" />
+    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593666880564">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.729@0.23.1280.729" timestamp="1593666880564" />
+    <state x="100" y="123" width="1080" height="529" key="DiffContextDialog" timestamp="1593669698773">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="100" y="123" width="1080" height="529" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1593669698773" />
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1593669972824">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593669972824" />
+    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1593669972823">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1593669972823" />
+    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1593669972822">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1593669972822" />
+    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1593669972823">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1593669972823" />
+    <state width="1238" height="84" key="GridCell.Tab.1.bottom" timestamp="1593668694152">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="84" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593668694152" />
+    <state width="1238" height="84" key="GridCell.Tab.1.center" timestamp="1593668694151">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="84" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1593668694151" />
+    <state width="1238" height="84" key="GridCell.Tab.1.left" timestamp="1593668694150">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="84" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1593668694150" />
+    <state width="1238" height="84" key="GridCell.Tab.1.right" timestamp="1593668694151">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="84" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1593668694151" />
+    <state x="141" y="26" key="SettingsEditor" timestamp="1593666616184">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="141" y="26" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1593666616184" />
+    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup" timestamp="1593669611344">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup/0.23.1280.729@0.23.1280.729" timestamp="1593669611344" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -279,92 +314,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>datastructureandalgorithm</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

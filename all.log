@@ -1,0 +1,6 @@
+2020-07-01 23:07:29.813 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - New Elementis added 1
+2020-07-01 23:07:29.816 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - New Elementis added 10
+2020-07-01 23:07:29.817 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - New Elementis added 15
+2020-07-01 23:07:29.817 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 1
+2020-07-01 23:07:29.818 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 10
+2020-07-01 23:07:29.818 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 15
