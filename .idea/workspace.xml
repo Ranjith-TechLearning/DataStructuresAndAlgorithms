@@ -23,41 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/datastructureandalgorithm_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/datastructureandalgorithm_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/arrays/RemoveDuplicateFromSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/LinkedList/LinkedListReversePrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingCircularArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Queue/QueueUsingLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/BalancedParanthesesProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/ReverseLinkedUsingStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/ReverseStringProblemUsingStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/Stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/array/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/tree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/datastructures/tree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/MergeTwoSortedLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/LinkedList/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/madan/SearchInRotatedSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/string/ReverserPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mylearning/problems/string/UniqueLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593302864246" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -214,22 +184,22 @@
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="100" y="123" width="1080" height="529" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1593669698773" />
-    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1593669972824">
+    <state width="1238" height="194" key="GridCell.Tab.0.bottom" timestamp="1593873074180">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593669972824" />
-    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1593669972823">
+    <state width="1238" height="194" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593873074180" />
+    <state width="1238" height="194" key="GridCell.Tab.0.center" timestamp="1593873074179">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1593669972823" />
-    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1593669972822">
+    <state width="1238" height="194" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1593873074179" />
+    <state width="1238" height="194" key="GridCell.Tab.0.left" timestamp="1593873074179">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1593669972822" />
-    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1593669972823">
+    <state width="1238" height="194" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1593873074179" />
+    <state width="1238" height="194" key="GridCell.Tab.0.right" timestamp="1593873074180">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1593669972823" />
+    <state width="1238" height="194" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1593873074180" />
     <state width="1238" height="84" key="GridCell.Tab.1.bottom" timestamp="1593668694152">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
