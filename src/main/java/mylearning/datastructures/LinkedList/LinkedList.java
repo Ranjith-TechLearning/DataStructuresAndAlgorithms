@@ -92,6 +92,40 @@ public class LinkedList {
         prev.link = nodeAtN.link;
     }
 
+    public void reverse(){
+
+         Node previous = null;
+        Node current = head;
+        Node next;
+
+        while(current !=null){
+            next = current.link; // captured next element
+            current.link = previous;  // disconnect current link
+            previous = current;
+            current = next;
+        }
+        head = previous;
+
+    }
+    public void printForwardUsingRecursion(Node head) {
+        System.out.println(head.data);
+        if(head.link == null){
+            return;
+        }else{
+            printForwardUsingRecursion(head.link);
+        }
+    }
+    public void printBackWardUsingRecursion(Node head) {
+        if(head == null){
+            return;
+        }else{
+            printBackWardUsingRecursion(head.link);
+        }
+        System.out.println(head.data);
+    }
+    public void reverseUsingRecursion(){
+
+    }
     public static void main(String arg[]){
         LinkedList linkedList = new LinkedList();
         linkedList.insert(1);
@@ -103,6 +137,13 @@ public class LinkedList {
         linkedList.insertAt(500, 5);
         linkedList.deleteAt(2);
         linkedList.display();
+        linkedList.reverse();
+        linkedList.display();
+        logger.info("=====================Forward printing using Recursion ====================");
+        linkedList.printForwardUsingRecursion(linkedList.head);
+        logger.info("=====================Backward printing using Recursion ====================");
+        linkedList.printBackWardUsingRecursion(linkedList.head);
+        linkedList.reverseUsingRecursion();
     }
 
 }

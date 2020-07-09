@@ -23,6 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
@@ -73,10 +76,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectId" id="1e76ppbOq6K8yzjx6i1RhC19M68" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -86,13 +85,27 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593302864246" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.StackLL">
+    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.LinkedList.DoublyLinkedList" />
+      <module name="datastructureandalgorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylearning.datastructures.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -101,6 +114,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mylearning.datastructures.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Stack.Stack" />
+      <module name="datastructureandalgorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylearning.datastructures.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Stack.StackLL" />
+      <module name="datastructureandalgorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylearning.datastructures.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +169,15 @@
     <list>
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
+      <item itemvalue="Application.DoublyLinkedList" />
+      <item itemvalue="Application.Stack" />
+      <item itemvalue="Application.StackLL" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackLL" />
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
         <item itemvalue="Application.LinkedList" />
       </list>
@@ -180,46 +225,70 @@
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.729@0.23.1280.729" timestamp="1593666880564" />
+    <state x="321" y="82" width="641" height="636" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594125397932">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="321" y="82" width="641" height="636" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1594125397932" />
+    <state x="403" y="110" key="#xdebugger.evaluate" timestamp="1594124487229">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="403" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1594124487229" />
     <state x="100" y="123" width="1080" height="529" key="DiffContextDialog" timestamp="1593669698773">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="100" y="123" width="1080" height="529" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1593669698773" />
-    <state width="1238" height="194" key="GridCell.Tab.0.bottom" timestamp="1593873074180">
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom" timestamp="1594273306440">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="194" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593873074180" />
-    <state width="1238" height="194" key="GridCell.Tab.0.center" timestamp="1593873074179">
+    <state width="1238" height="321" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594126231662" />
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1594273306440" />
+    <state width="1238" height="217" key="GridCell.Tab.0.center" timestamp="1594273306439">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="194" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1593873074179" />
-    <state width="1238" height="194" key="GridCell.Tab.0.left" timestamp="1593873074179">
+    <state width="1238" height="321" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594126231661" />
+    <state width="1238" height="217" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
+    <state width="1238" height="217" key="GridCell.Tab.0.left" timestamp="1594273306439">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="194" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1593873074179" />
-    <state width="1238" height="194" key="GridCell.Tab.0.right" timestamp="1593873074180">
+    <state width="1238" height="321" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594126231660" />
+    <state width="1238" height="217" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
+    <state width="1238" height="217" key="GridCell.Tab.0.right" timestamp="1594273306439">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="194" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1593873074180" />
-    <state width="1238" height="84" key="GridCell.Tab.1.bottom" timestamp="1593668694152">
+    <state width="1238" height="321" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594126231662" />
+    <state width="1238" height="217" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom" timestamp="1594273281550">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="84" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1593668694152" />
-    <state width="1238" height="84" key="GridCell.Tab.1.center" timestamp="1593668694151">
+    <state width="1238" height="219" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594125073086" />
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
+    <state width="1238" height="187" key="GridCell.Tab.1.center" timestamp="1594273281550">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="84" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1593668694151" />
-    <state width="1238" height="84" key="GridCell.Tab.1.left" timestamp="1593668694150">
+    <state width="1238" height="219" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1594125073085" />
+    <state width="1238" height="187" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
+    <state width="1238" height="187" key="GridCell.Tab.1.left" timestamp="1594273281549">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="84" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1593668694150" />
-    <state width="1238" height="84" key="GridCell.Tab.1.right" timestamp="1593668694151">
+    <state width="1238" height="219" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1594125073084" />
+    <state width="1238" height="187" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1594273281549" />
+    <state width="1238" height="187" key="GridCell.Tab.1.right" timestamp="1594273281550">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state width="1238" height="84" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1593668694151" />
+    <state width="1238" height="219" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1594125073085" />
+    <state width="1238" height="187" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
     <state x="141" y="26" key="SettingsEditor" timestamp="1593666616184">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="141" y="26" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1593666616184" />
+    <state x="491" y="321" key="VCS.ChangelistChooser" timestamp="1594124890250">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="491" y="321" key="VCS.ChangelistChooser/0.0.1280.800@0.0.1280.800" timestamp="1594124890250" />
+    <state x="378" y="159" key="extract.method.dialog" timestamp="1594124906987">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="159" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1594124906987" />
     <state x="305" y="38" width="670" height="676" key="search.everywhere.popup" timestamp="1593669611344">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
@@ -230,59 +299,63 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="21" />
+          <line>119</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
+          <line>66</line>
+          <properties class="mylearning.datastructures.LinkedList.DoublyLinkedList" method="reversePrint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>first[c]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>first[c] * 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>first.get(c)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>numbers[oddIndex + 2]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>numbers[evenIndex]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rEven</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>evenIndex +  2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arra[i]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>topElement</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

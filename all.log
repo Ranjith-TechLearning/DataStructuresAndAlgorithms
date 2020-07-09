@@ -1,6 +1,3 @@
-2020-07-04 07:31:15.796 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 100
-2020-07-04 07:31:15.799 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 30
-2020-07-04 07:31:15.799 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 1
-2020-07-04 07:31:15.800 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 500
-2020-07-04 07:31:15.800 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 10
-2020-07-04 07:31:15.800 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Data is at : 15
+2020-07-07 05:50:33.180 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Display after add elements... 
+2020-07-07 05:50:33.182 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - Display after add elements added to head... 
+2020-07-07 05:50:33.183 [main] INFO  mylearning.datastructures.LinkedList.LinkedList - display after elements reversed
