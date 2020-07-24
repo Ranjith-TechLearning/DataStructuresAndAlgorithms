@@ -23,13 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/BalancedExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.StackLL">
+  <component name="RunManager" selected="Application.QueueArray">
+    <configuration name="BalancedExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Stack.BalancedExpression" />
+      <module name="datastructureandalgorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mylearning.datastructures.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.LinkedList.DoublyLinkedList" />
       <module name="datastructureandalgorithm.main" />
@@ -106,14 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.LinkedList.LinkedList" />
+    <configuration name="QueueArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Queue.QueueArray" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.LinkedList.*" />
+          <option name="PATTERN" value="mylearning.datastructures.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,39 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests in 'datastructureandalgorithm'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
       <item itemvalue="Application.DoublyLinkedList" />
       <item itemvalue="Application.Stack" />
       <item itemvalue="Application.StackLL" />
+      <item itemvalue="Application.BalancedExpression" />
+      <item itemvalue="Application.QueueArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueArray" />
+        <item itemvalue="Application.BalancedExpression" />
         <item itemvalue="Application.StackLL" />
         <item itemvalue="Application.Stack" />
         <item itemvalue="Application.DoublyLinkedList" />
-        <item itemvalue="Gradle.Tests in 'datastructureandalgorithm'" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -229,54 +223,55 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="321" y="82" width="641" height="636" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1594125397932" />
-    <state x="403" y="110" key="#xdebugger.evaluate" timestamp="1594124487229">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="403" y="123" key="#xdebugger.evaluate" timestamp="1595112287475">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="403" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1594124487229" />
+    <state x="403" y="123" key="#xdebugger.evaluate/0.23.1280.729@0.23.1280.729" timestamp="1595112287475" />
     <state x="100" y="123" width="1080" height="529" key="DiffContextDialog" timestamp="1593669698773">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="100" y="123" width="1080" height="529" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1593669698773" />
-    <state width="1238" height="217" key="GridCell.Tab.0.bottom" timestamp="1594273306440">
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom" timestamp="1595600872202">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="321" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594126231662" />
-    <state width="1238" height="217" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1594273306440" />
-    <state width="1238" height="217" key="GridCell.Tab.0.center" timestamp="1594273306439">
+    <state width="1238" height="217" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1595600872202" />
+    <state width="1238" height="217" key="GridCell.Tab.0.center" timestamp="1595600872201">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="321" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594126231661" />
-    <state width="1238" height="217" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
-    <state width="1238" height="217" key="GridCell.Tab.0.left" timestamp="1594273306439">
+    <state width="1238" height="217" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1595600872201" />
+    <state width="1238" height="217" key="GridCell.Tab.0.left" timestamp="1595600872200">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="321" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594126231660" />
-    <state width="1238" height="217" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
-    <state width="1238" height="217" key="GridCell.Tab.0.right" timestamp="1594273306439">
+    <state width="1238" height="217" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1595600872200" />
+    <state width="1238" height="217" key="GridCell.Tab.0.right" timestamp="1595600872201">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="321" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594126231662" />
-    <state width="1238" height="217" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1594273306439" />
-    <state width="1238" height="187" key="GridCell.Tab.1.bottom" timestamp="1594273281550">
+    <state width="1238" height="217" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1595600872201" />
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom" timestamp="1595112492579">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="219" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594125073086" />
-    <state width="1238" height="187" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
-    <state width="1238" height="187" key="GridCell.Tab.1.center" timestamp="1594273281550">
+    <state width="1238" height="187" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1595112492579" />
+    <state width="1238" height="187" key="GridCell.Tab.1.center" timestamp="1595112492577">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="219" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1594125073085" />
-    <state width="1238" height="187" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
-    <state width="1238" height="187" key="GridCell.Tab.1.left" timestamp="1594273281549">
+    <state width="1238" height="187" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1595112492577" />
+    <state width="1238" height="187" key="GridCell.Tab.1.left" timestamp="1595112492576">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="219" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1594125073084" />
-    <state width="1238" height="187" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1594273281549" />
-    <state width="1238" height="187" key="GridCell.Tab.1.right" timestamp="1594273281550">
+    <state width="1238" height="187" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1595112492576" />
+    <state width="1238" height="187" key="GridCell.Tab.1.right" timestamp="1595112492577">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1238" height="219" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1594125073085" />
-    <state width="1238" height="187" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1594273281550" />
+    <state width="1238" height="187" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1595112492577" />
     <state x="141" y="26" key="SettingsEditor" timestamp="1593666616184">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
@@ -346,6 +341,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/StackLL.java</url>
           <line>13</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/BalancedExpression.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/BalancedExpression.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/Stack/BalancedExpression.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
