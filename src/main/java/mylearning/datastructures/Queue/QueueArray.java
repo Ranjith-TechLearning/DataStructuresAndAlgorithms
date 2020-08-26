@@ -25,7 +25,7 @@ public class QueueArray {
     private boolean isEmpty(){
         return rear==-1 && front==-1;
     }
-    private void enqueue(int item) throws Exception {
+    private void enqueue(int item) {
         if(rear == SIZE-1){
             System.out.println("The Queue is Empty");
         }
@@ -37,7 +37,7 @@ public class QueueArray {
        intArray[rear]= item;
     }
 
-    private void dequeue() throws Exception {
+    private void dequeue() {
         if(isEmpty()){
             System.out.println("The Queue is Empty");
         }
@@ -47,7 +47,7 @@ public class QueueArray {
             rear = rear -1;
         }
     }
-    private int peak() throws Exception {
+    private int peak() {
         if(isEmpty()){
             System.out.println("The Queue is Empty");
             return -1;
