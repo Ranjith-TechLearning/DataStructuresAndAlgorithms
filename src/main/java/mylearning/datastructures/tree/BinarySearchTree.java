@@ -146,6 +146,7 @@ public class BinarySearchTree {
     }
 
     public static void main(String arg[]){
+        
         int[] array = {15, 9, 14, 8, 3, 2, 1, 18, 19, 17};
         //int[] array = {15, 5, 15};
         BinarySearchTree bst = new BinarySearchTree();
@@ -164,5 +165,6 @@ public class BinarySearchTree {
         System.out.println("I am going to print in PostOrder Mode");
         bst.postOrder_Recursive(bst.rootNode);
         System.out.println("I am going to print in PostOrder Mode-- ends..");
+        int a = array.length;
     }
 }

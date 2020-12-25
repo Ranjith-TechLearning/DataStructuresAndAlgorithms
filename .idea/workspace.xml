@@ -23,11 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueLList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DeleteItemFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/FindMaximumConsecutiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/PolyndromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReplaceNthNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/Queue/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +97,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
-    <configuration name="BalancedExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Stack.BalancedExpression" />
+  <component name="RunManager" selected="Application.TestClass">
+    <configuration name="DeleteItemFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.DeleteItemFromArray" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.Stack.*" />
+          <option name="PATTERN" value="mylearning.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.tree.BinarySearchTree" />
+    <configuration name="DuplicateFinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.DuplicateFinding" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.tree.*" />
+          <option name="PATTERN" value="mylearning.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Queue.QueueArray" />
+    <configuration name="PolyndromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.PolyndromeString" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.Queue.*" />
+          <option name="PATTERN" value="mylearning.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueLList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Queue.QueueLList" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.ReverseString" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.Queue.*" />
+          <option name="PATTERN" value="mylearning.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.Stack.StackLL" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.TestClass" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.Stack.*" />
+          <option name="PATTERN" value="mylearning.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StackLL" />
-      <item itemvalue="Application.BalancedExpression" />
-      <item itemvalue="Application.QueueArray" />
-      <item itemvalue="Application.QueueLList" />
-      <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.DeleteItemFromArray" />
+      <item itemvalue="Application.PolyndromeString" />
+      <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.DuplicateFinding" />
+      <item itemvalue="Application.TestClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.QueueLList" />
-        <item itemvalue="Application.QueueArray" />
-        <item itemvalue="Application.BalancedExpression" />
-        <item itemvalue="Application.StackLL" />
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.DuplicateFinding" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.PolyndromeString" />
+        <item itemvalue="Application.DeleteItemFromArray" />
       </list>
     </recent_temporary>
   </component>
@@ -208,91 +215,58 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="128" y="23" key="#Project_Structure" timestamp="1593666824497">
+    <state x="403" y="110" key="#xdebugger.evaluate" timestamp="1602479799466">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="403" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1602479799466" />
+    <state width="1238" height="164" key="GridCell.Tab.0.bottom" timestamp="1608649893068">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="164" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608649893068" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1603399584619" />
+    <state width="1238" height="164" key="GridCell.Tab.0.center" timestamp="1608649893066">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="164" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608649893066" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1603399584617" />
+    <state width="1238" height="164" key="GridCell.Tab.0.left" timestamp="1608649893064">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="164" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608649893063" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1603399584616" />
+    <state width="1238" height="164" key="GridCell.Tab.0.right" timestamp="1608649893067">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="164" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608649893067" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1603399584618" />
+    <state width="1238" height="186" key="GridCell.Tab.1.bottom" timestamp="1603399584629">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="128" y="23" key="#Project_Structure/0.23.1280.729@0.23.1280.729" timestamp="1593666824497" />
-    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593666880564">
+    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602721376468" />
+    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1603399584629" />
+    <state width="1238" height="186" key="GridCell.Tab.1.center" timestamp="1603399584628">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.729@0.23.1280.729" timestamp="1593666880564" />
-    <state x="321" y="82" width="641" height="636" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594125397932">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="321" y="82" width="641" height="636" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1594125397932" />
-    <state x="410" y="276" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596633074710">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="410" y="276" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1596633074710" />
-    <state x="403" y="110" key="#xdebugger.evaluate" timestamp="1597815390353">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="403" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1597815390353" />
-    <state x="403" y="123" key="#xdebugger.evaluate/0.23.1280.729@0.23.1280.729" timestamp="1595661694911" />
-    <state x="100" y="123" width="1080" height="529" key="DiffContextDialog" timestamp="1593669698773">
+    <state width="1238" height="186" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1602721376467" />
+    <state width="1238" height="186" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1603399584628" />
+    <state width="1238" height="186" key="GridCell.Tab.1.left" timestamp="1603399584625">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="100" y="123" width="1080" height="529" key="DiffContextDialog/0.23.1280.729@0.23.1280.729" timestamp="1593669698773" />
-    <state width="1238" height="305" key="GridCell.Tab.0.bottom" timestamp="1598362953284">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="305" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598362953284" />
-    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1597630221971" />
-    <state width="1238" height="305" key="GridCell.Tab.0.center" timestamp="1598362953283">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="305" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598362953283" />
-    <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1597630221969" />
-    <state width="1238" height="305" key="GridCell.Tab.0.left" timestamp="1598362953282">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="305" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598362953282" />
-    <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1597630221969" />
-    <state width="1238" height="305" key="GridCell.Tab.0.right" timestamp="1598362953284">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="305" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598362953284" />
-    <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1597630221970" />
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom" timestamp="1597815618552">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597815618552" />
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1597630221974" />
-    <state width="1238" height="186" key="GridCell.Tab.1.center" timestamp="1597815618548">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1597815618548" />
-    <state width="1238" height="186" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1597630221972" />
-    <state width="1238" height="186" key="GridCell.Tab.1.left" timestamp="1597815618547">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1597815618547" />
-    <state width="1238" height="186" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1597630221972" />
-    <state width="1238" height="186" key="GridCell.Tab.1.right" timestamp="1597815618551">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1597815618551" />
-    <state width="1238" height="186" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1597630221973" />
-    <state x="141" y="26" key="SettingsEditor" timestamp="1593666616184">
+    <state width="1238" height="186" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1602721376466" />
+    <state width="1238" height="186" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1603399584625" />
+    <state width="1238" height="186" key="GridCell.Tab.1.right" timestamp="1603399584629">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="141" y="26" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1593666616184" />
-    <state x="491" y="321" key="VCS.ChangelistChooser" timestamp="1594124890250">
+    <state width="1238" height="186" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1602721376468" />
+    <state width="1238" height="186" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1603399584629" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1602123224368">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="491" y="321" key="VCS.ChangelistChooser/0.0.1280.800@0.0.1280.800" timestamp="1594124890250" />
-    <state x="378" y="159" key="extract.method.dialog" timestamp="1594124906987">
+    <state width="600" height="428" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1602123224368" />
+    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup" timestamp="1602734564725">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="159" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1594124906987" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1596634660459">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1596634660459" />
-    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup" timestamp="1593669611344">
-      <screen x="0" y="23" width="1280" height="729" />
-    </state>
-    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup/0.23.1280.729@0.23.1280.729" timestamp="1593669611344" />
+    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602734564725" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,6 +370,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java</url>
           <line>86</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateZeros.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/ReplaceNthNumber.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/PolyndromeString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/ReverseString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>
