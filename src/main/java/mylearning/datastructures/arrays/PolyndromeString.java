@@ -1,4 +1,4 @@
-package mylearning.arrays;
+package mylearning.datastructures.arrays;
 
 public class PolyndromeString {
     public static void main(String arg[]){
@@ -25,7 +25,7 @@ public class PolyndromeString {
 
     private boolean isAlphaNumeric(char character){
         byte asciiCode = (byte)character;
-        if((asciiCode >=48 && asciiCode<=57) || (asciiCode >=65 && asciiCode <=90)){
+        if((character >=48 && character<=57) || (character >=65 && character <=90)){
             return true;
         }
         return false;

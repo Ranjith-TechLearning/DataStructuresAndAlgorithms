@@ -1,4 +1,4 @@
-package mylearning.arrays;
+package mylearning.datastructures.arrays;
 
 import java.util.Arrays;
 
@@ -23,7 +23,14 @@ public class DuplicateZeros {
             }
         }
 
+        /*
 
+        **/
+
+        public static void moveDuplicateZerosToEnd(int[] inputArray){
+
+
+        }
 
     public static void main(String arg[]) {
             int[] arr = {0,0,0};

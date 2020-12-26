@@ -1,6 +1,5 @@
-package mylearning.arrays;
+package mylearning.datastructures.arrays;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DeleteItemFromArray {

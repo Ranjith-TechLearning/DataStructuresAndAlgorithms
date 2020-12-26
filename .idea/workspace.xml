@@ -23,18 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DeleteItemFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/FindMaximumConsecutiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/PolyndromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReplaceNthNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/FindIndexOfLargestNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MyDynamicArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/RemoveDuplicateFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/SecondLargestNumberIndexInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/recursion/Recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DeleteItemFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DeleteItemFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DuplicateFinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DuplicateZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/FindMaximumConsecutiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/FindMaximumConsecutiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/PolyndromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/PolyndromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/RemoveDuplicateFromSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReplaceNthNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReplaceNthNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/arrays/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +104,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="DeleteItemFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.DeleteItemFromArray" />
+  <component name="RunManager" selected="Application.DuplicateZeros">
+    <configuration name="ArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.ArraySorted" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.arrays.*" />
+          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="DuplicateFinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.DuplicateFinding" />
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.DuplicateFinding" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.arrays.*" />
+          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyndromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.PolyndromeString" />
+    <configuration name="DuplicateZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.DuplicateZeros" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.arrays.*" />
+          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.arrays.ReverseString" />
+    <configuration name="RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.RemoveDuplicateFromSortedArray" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.arrays.*" />
+          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.TestClass" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.ReverseArray" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.*" />
+          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeleteItemFromArray" />
-      <item itemvalue="Application.PolyndromeString" />
-      <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.ArraySorted" />
+      <item itemvalue="Application.ReverseArray" />
       <item itemvalue="Application.DuplicateFinding" />
-      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
+      <item itemvalue="Application.DuplicateZeros" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.DuplicateZeros" />
+        <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
         <item itemvalue="Application.DuplicateFinding" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.PolyndromeString" />
-        <item itemvalue="Application.DeleteItemFromArray" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.ArraySorted" />
       </list>
     </recent_temporary>
   </component>
@@ -215,58 +222,66 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="110" key="#xdebugger.evaluate" timestamp="1602479799466">
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1608943255206">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="403" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1602479799466" />
-    <state width="1238" height="164" key="GridCell.Tab.0.bottom" timestamp="1608649893068">
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1608943255206" />
+    <state x="132" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609021957457">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="164" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608649893068" />
+    <state x="132" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1609021957457" />
+    <state x="479" y="221" key="#xdebugger.evaluate" timestamp="1609009333569">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="479" y="221" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1609009333569" />
+    <state width="1238" height="121" key="GridCell.Tab.0.bottom" timestamp="1609016410184">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="121" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609016410184" />
     <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1603399584619" />
-    <state width="1238" height="164" key="GridCell.Tab.0.center" timestamp="1608649893066">
+    <state width="1238" height="121" key="GridCell.Tab.0.center" timestamp="1609016410183">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="164" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608649893066" />
+    <state width="1238" height="121" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609016410183" />
     <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1603399584617" />
-    <state width="1238" height="164" key="GridCell.Tab.0.left" timestamp="1608649893064">
+    <state width="1238" height="121" key="GridCell.Tab.0.left" timestamp="1609016410182">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="164" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608649893063" />
+    <state width="1238" height="121" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609016410182" />
     <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1603399584616" />
-    <state width="1238" height="164" key="GridCell.Tab.0.right" timestamp="1608649893067">
+    <state width="1238" height="121" key="GridCell.Tab.0.right" timestamp="1609016410183">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="164" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608649893067" />
+    <state width="1238" height="121" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609016410183" />
     <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1603399584618" />
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom" timestamp="1603399584629">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="186" key="GridCell.Tab.1.bottom" timestamp="1609011293418">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602721376468" />
+    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609011293418" />
     <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1603399584629" />
-    <state width="1238" height="186" key="GridCell.Tab.1.center" timestamp="1603399584628">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="186" key="GridCell.Tab.1.center" timestamp="1609011293416">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1602721376467" />
+    <state width="1238" height="186" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1609011293416" />
     <state width="1238" height="186" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1603399584628" />
-    <state width="1238" height="186" key="GridCell.Tab.1.left" timestamp="1603399584625">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="186" key="GridCell.Tab.1.left" timestamp="1609011293415">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1602721376466" />
+    <state width="1238" height="186" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1609011293415" />
     <state width="1238" height="186" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1603399584625" />
-    <state width="1238" height="186" key="GridCell.Tab.1.right" timestamp="1603399584629">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="186" key="GridCell.Tab.1.right" timestamp="1609011293417">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1602721376468" />
+    <state width="1238" height="186" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1609011293417" />
     <state width="1238" height="186" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1603399584629" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1602123224368">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1602123224368" />
-    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup" timestamp="1602734564725">
+    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup" timestamp="1609008684412">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1602734564725" />
+    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1609008684412" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -372,49 +387,44 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateZeros.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DuplicateZeros.java</url>
           <line>19</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/ReplaceNthNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReplaceNthNumber.java</url>
           <line>12</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MergeSortedArray.java</url>
           <line>43</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MergeSortedArray.java</url>
           <line>34</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/MergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MergeSortedArray.java</url>
           <line>39</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/PolyndromeString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/PolyndromeString.java</url>
           <line>15</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/ReverseString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReverseString.java</url>
           <line>11</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mylearning/arrays/DuplicateFinding.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="92" />
+          <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/ReverseArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/mylearning/datastructures/LinkedList/DoublyLinkedList.java</url>

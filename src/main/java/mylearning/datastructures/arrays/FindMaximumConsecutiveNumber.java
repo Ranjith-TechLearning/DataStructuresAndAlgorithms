@@ -1,4 +1,4 @@
-package mylearning.arrays;
+package mylearning.datastructures.arrays;
 
 public class FindMaximumConsecutiveNumber {
     public static int findMaxConsecutiveOnes(int[] nums) {
