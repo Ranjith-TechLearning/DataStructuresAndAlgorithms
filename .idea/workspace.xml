@@ -3,6 +3,9 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="10" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -23,15 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748ce84d-4834-4e40-8864-12ad8518ccbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/LeaderInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MaxConsicutiveOnesInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/MaxDifferenceOfPairInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/RotateArrayLeftByKTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/StockBuySell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mylearning/java/EqualsHashCodeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mylearning/datastructures/arrays/DuplicateZeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,16 +82,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593302864246" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.EqualsHashCodeCheck">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.searching.BinarySearch" />
       <module name="datastructureandalgorithm.main" />
@@ -108,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsicutiveOnesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.MaxConsicutiveOnesInArray" />
+    <configuration name="EqualsHashCodeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.java.EqualsHashCodeCheck" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mylearning.datastructures.arrays.*" />
+          <option name="PATTERN" value="mylearning.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDifferenceOfPairInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.MaxDifferenceOfPairInArray" />
+    <configuration name="MaxConsicutiveOnesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mylearning.datastructures.arrays.MaxConsicutiveOnesInArray" />
       <module name="datastructureandalgorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -160,23 +167,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MaxDifferenceOfPairInArray" />
       <item itemvalue="Application.StockBuySell" />
       <item itemvalue="Application.TrappingRainWater" />
       <item itemvalue="Application.MaxConsicutiveOnesInArray" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.EqualsHashCodeCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsHashCodeCheck" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MaxConsicutiveOnesInArray" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.StockBuySell" />
-        <item itemvalue="Application.MaxDifferenceOfPairInArray" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -187,6 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574230265089</updated>
+      <workItem from="1612108228341" duration="1972000" />
     </task>
     <servers />
   </component>
@@ -198,6 +218,9 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -211,75 +234,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1608943255206">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1608943255206" />
-    <state x="132" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609021957457">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="132" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1609021957457" />
-    <state x="443" y="221" key="#xdebugger.evaluate" timestamp="1609281464164">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="443" y="221" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1609281464164" />
-    <state x="92" y="0" key="CommitChangelistDialog2" timestamp="1609272916183">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="92" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1609272916183" />
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1609283818641">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609283818641" />
-    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1609137899320" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1609283818640">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609283818640" />
-    <state width="1238" height="186" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1609137899319" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1609283818640">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609283818640" />
-    <state width="1238" height="186" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1609137899318" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1609283818641">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609283818641" />
-    <state width="1238" height="186" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1609137899501" />
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom" timestamp="1609281527363">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609281527363" />
-    <state width="1238" height="186" key="GridCell.Tab.1.bottom/0.23.1280.729@0.23.1280.729" timestamp="1609137899323" />
-    <state width="1238" height="186" key="GridCell.Tab.1.center" timestamp="1609281527362">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1609281527362" />
-    <state width="1238" height="186" key="GridCell.Tab.1.center/0.23.1280.729@0.23.1280.729" timestamp="1609137899321" />
-    <state width="1238" height="186" key="GridCell.Tab.1.left" timestamp="1609281527361">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1609281527361" />
-    <state width="1238" height="186" key="GridCell.Tab.1.left/0.23.1280.729@0.23.1280.729" timestamp="1609137899321" />
-    <state width="1238" height="186" key="GridCell.Tab.1.right" timestamp="1609281527362">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="186" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1609281527362" />
-    <state width="1238" height="186" key="GridCell.Tab.1.right/0.23.1280.729@0.23.1280.729" timestamp="1609137899322" />
-    <state x="341" y="21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609190447914">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="341" y="21" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1609190447914" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1602123224368">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1602123224368" />
-    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup" timestamp="1609272920435">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="16" width="670" height="742" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1609272920435" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Equals and Hashcode check." />
+    <option name="LAST_COMMIT_MESSAGE" value="Equals and Hashcode check." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
